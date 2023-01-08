@@ -32,12 +32,10 @@ void Print2DArray(int[,] array2D)
 {
     for (int i = 0; i < array2D.GetLength(0); i++)
     {
-        //Console.Write("[ ");
         for (int j = 0; j < array2D.GetLength(1); j++)
         {
             Console.Write(array2D[i, j] + " ");
         }
-        //Console.Write("]");
         Console.WriteLine("");
     }
 }
